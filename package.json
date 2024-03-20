@@ -2,7 +2,7 @@
   "name": "express-ws",
   "version": "1.0.0",
   "description": "tdd  with express",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "start": "nodemon index",
     "test": "jest --watch",
@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7",
     "supertest": "^6.3.4"
   },
   "devDependencies": {
